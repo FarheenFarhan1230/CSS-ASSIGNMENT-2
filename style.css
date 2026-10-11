@@ -1,0 +1,356 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.detail{
+    background-color: rgb(7, 7, 7);
+    width:800px;
+    height:400px;
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+    margin: 10vh auto;
+}
+.image{
+    display: block;
+    width: 550px;
+    max-width: 90%;
+    height: 500px;
+    position: absolute;
+    right: -40%;
+    top: 42.5%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.arrows {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    z-index: 10;
+}
+.arrow {
+    display: inline-block;
+    font-size: 27px;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.arrow:hover {
+    color:lightblue;
+    transform: scale(1.3);
+    text-shadow:  lightblue;
+}
+.black{
+    background-color: rgb(5, 5, 5);
+    width: 900px;
+    height: 600px;
+    position: absolute;
+     top: 0;
+     left: 0;
+} 
+.blue {
+    width: 52%;
+    height: 548px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.circle{
+ width: 400px;
+    height: 400px;
+    position: absolute;
+    right: -40px;
+    top: 25px;
+    background: linear-gradient(lightblue);
+    border-radius: 50%;
+    box-shadow: 0 0 30px lightblue;
+    margin-right: 80px;
+}
+.span {
+    margin-right:20px 
+}
+.heading p{
+    position: absolute;
+    margin-left: 480px;
+    z-index: 20;
+    color: white;
+}
+.text{
+    text-align: left;
+    margin-left: 450px;
+    color: white;
+    margin-top: 125px;
+font-weight: bold;
+font-size:20px;
+}
+.icon{
+    position: absolute;
+    right:350px ;
+    top: 75px;
+    color: white;
+    z-index: 1;
+}
+ .icon:hover{
+ color: lightblue;
+  transform: scale(1.3);
+ }
+.icon2{
+    position: absolute;
+    right:315px ;
+    top: 75px;
+    color: white;
+    z-index: 1;
+}
+.icon2:hover{
+ color: lightblue;
+  transform: scale(1.3);
+ }
+.icon3{
+    position: absolute;
+    right:280px ;
+    top: 75px;
+    color: white;
+    z-index: 1;
+}
+.icon3:hover{
+ color: lightblue;
+  transform: scale(1.3);
+ }
+ h3{
+    color: lightblue;
+ }
+span{
+    color: lightblue;
+}
+h1{
+    font-family: "League Spartan", sans-serif;
+}
+ .s {
+    display: inline-block;
+    width: 25px;
+    height: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 550px;
+    color: white;
+    margin-right: 15px;
+}
+ .m {
+    display: inline-block;
+    width: 25px;
+    height: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    color: white;
+}
+.l {
+    display: inline-block;
+    width: 25px;
+    height: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px; 
+    color: white;
+}
+ .color {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 18px;
+    color:white;
+    margin-left: 480px;
+} 
+ .color1 {
+    display: inline-block;
+    width: 25px;
+    height: 3.5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 550px;
+    position: absolute;
+    margin-top: 10px;
+}
+.color1:hover{
+    color: black;
+}
+ .color2 {
+    display: inline-block;
+    width: 25px;
+    height: 3.5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin-right: 10px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 10px;
+}
+.color2:hover{
+    color: lightblue;
+}
+.color3 {
+    display: inline-block;
+    width: 25px;
+    height: 3.5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: seashell;
+    margin-right: 10px;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 10px;
+}
+.color3:hover{
+    color:seashell; 
+}
+.color4 {
+    display: inline-block;
+    width: 25px;
+    height: 3,5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin-right: 10px;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 10px;
+}
+.class4:hover{
+    color: blueviolet;
+}
+  .quantity-section {
+    position:relative;
+    margin: 0;
+    white-space: nowrap;
+    /* margin-left: 400px; */
+    top: 25px;
+    left: 490px;
+    color: white;
+    z-index: 30;
+    /* margin-top: 0; */
+}
+.quantity {
+    display: inline-block;
+    width: 180px;
+    height: 48px;
+    /* margin-left: 470px; */
+    border: solid white;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.quantity button {
+    width: 28px;
+    height: 28px;
+    margin: 9px 10px;
+    border: none;
+    border-radius: 50%;
+    background:lightblue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.label{
+    color:white;
+}
+.quantity button:hover {
+    background:lightblue;
+    transform: scale(1.1);
+}
+.quantity span {
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?cs=srgb&dl=pexels-francesco-ungaro-281260.jpg&fm=jpg);
+background-size: cover;
+
+
+}
+  .buttons {
+        width: 100%;
+        white-space: nowrap;
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 490px;
+        /* padding-left: 0; */
+}
+.buy,.add{
+    width: 16%;
+        min-height: 50px;
+        padding: 8px 2px;
+        font-size: 12px;
+        margin-right: 0px;
+}
+.buy {
+        margin-right: 20px;
+}
+.buttons i {
+        margin-right: 3px;
+}
+.buy,.add{
+    width: 180px;
+    height: 50px;
+    padding: 8px;
+    font-size: 14px;
+}
+.buy:hover{
+    color:blue;
+    transform: scale(1.2);
+    background-color: lightblue;
+}
+.add:hover{
+    color:blue;
+    transform: scale(1.2);
+    background-color:lightblue;
+}
+@media screen and (max-width: 600px) {
+.right {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .right h1 {
+        font-size: 23px;
+    }
+    .logo {
+        font-size: 18px;
+        left: 8px;
+    }
+    .icons {
+        right: 7px;
+        font-size: 14px;
+    }
+    .icons i {
+        margin-left: 5px;
+    }
+    .quantity {
+        width: 135px;
+        margin-left: 5px;
+    }
+    .quantity button {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .colors {
+        margin-left: 6px;
+    }
+    .color {
+        width: 23px;
+        height: 23px;
+        margin-right: 3px;
+    }
+    .buy,.cart {
+        font-size: 11px;
+    }
+}
