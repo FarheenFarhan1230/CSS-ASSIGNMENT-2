@@ -315,42 +315,44 @@ background-size: cover;
     transform: scale(1.2);
     background-color:lightblue;
 }
-@media screen and (max-width: 600px) {
-.right {
-        padding-left: 12px;
-        padding-right: 12px;
+@media screen and(max-width:600px){
+    .detail{
+        width: 100%;
+        height: auto;
+        margin: 0;
     }
-    .right h1 {
-        font-size: 23px;
+    .black{
+        width: 100%;
+        height: auto;
+        padding: 20px;
     }
-    .logo {
-        font-size: 18px;
-        left: 8px;
+    .blue{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 0;
     }
-    .icons {
-        right: 7px;
-        font-size: 14px;
+    .image{
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
-    .icons i {
-        margin-left: 5px;
+    .text{
+position: static;
+margin: 20px 0 0;
+width: 100%;
     }
-    .quantity {
-        width: 135px;
-        margin-left: 5px;
+    .name{
+        position: static;
+        margin: 15px 0;
     }
-    .quantity button {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .colors {
-        margin-left: 6px;
-    }
-    .color {
-        width: 23px;
-        height: 23px;
-        margin-right: 3px;
-    }
-    .buy,.cart {
-        font-size: 11px;
+    .buttons{
+        position: static;
+        margin: 20px 0 0;
+        width: 100%;
+        text-align: center;
+        white-space: normal;
     }
 }
